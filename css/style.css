@@ -62,26 +62,37 @@ body {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
+    height: 650px;
     margin: 0 auto;
 }
 
 .hero-text
 {
-    
+    margin-top: 150px;
     max-width: 600px;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
+.hero-image h1
+{
+    font-size: 3.5rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    
+}
+
 .hero-image
 {
  position: relative;
- max-width: 100%;
- margin-bottom: -125px;
+ height: 1000px;
+ margin-bottom: -500px;
 }
 .hero-image img
 {
-    max-width: 800px;
+    max-width: 1000px;
     height: auto;
 }
