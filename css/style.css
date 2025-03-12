@@ -13,6 +13,11 @@
     padding: 20px 40px;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
 .main-nav ul
 {
     list-style-type: none;
@@ -26,3 +31,57 @@
     text-decoration: none;
     color: grey;
     font-weight: 500;
+}
+
+.header-action button
+{
+  background-color: #482cd8;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+
+}
+
+.cta
+{
+    background-color: #482cd8;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+}
+
+.hero
+{
+    background-color: #e0f0ff;
+    padding: 60px 40px;
+}
+
+.hero-container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero-text
+{
+    
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-image
+{
+ position: relative;
+ max-width: 100%;
+ margin-bottom: -125px;
+}
+.hero-image img
+{
+    max-width: 800px;
+    height: auto;
+}
