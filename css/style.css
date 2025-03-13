@@ -97,16 +97,17 @@ body {
     height: auto;
 }
 
+.pricing-container
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
 .pricing-plans
 {
     padding: 60px 40px;
 }
 
-.pricing-plans .container
-{
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .pricing-plans h2
 {
@@ -115,4 +116,55 @@ body {
     margin-top: 200px;
     margin-bottom: 100px;
     text-align: center;
+}
+
+.billing-toggle label
+{
+    text-align: right;
+    margin-bottom: 40px;
+    margin: 0 20px;
+}
+
+.plans-container
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.plan-card
+{
+    border: 1px solid #6e6e6e;
+    padding: 20px;
+    flex 1;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.plan-card h3
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.plan-card .price
+{
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.plan-card .features
+{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.plan-card .features li
+{
+    margin-bottom: 10px;
 }
