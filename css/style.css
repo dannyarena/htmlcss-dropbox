@@ -96,3 +96,23 @@ body {
     max-width: 1000px;
     height: auto;
 }
+
+.pricing-plans
+{
+    padding: 60px 40px;
+}
+
+.pricing-plans .container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.pricing-plans h2
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    text-align: center;
+}
