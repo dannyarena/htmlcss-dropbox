@@ -229,3 +229,51 @@ body {
     margin: 40px;
     
 }
+
+.enterprise-card
+{
+    position: relative;
+    border: 1px solid;
+    padding: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+    .enterprise-card .plan-type {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .enterprise-content h3
+    {
+        margin-top: 20px;
+    }
+
+    .subtitle
+    
+    {
+        margin-top: 10px;
+    }
+    
+.description
+    {
+        margin-top: 50px;
+    }
+    
+.btn-enterprise
+    {
+        background-color: #482cd8;
+        color: #ffffff;
+        padding: 5px 10px;
+        border: none;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: small;
+        text-decoration: none;
+        position: absolute;
+        right: 35px;
+        top: 40px;
