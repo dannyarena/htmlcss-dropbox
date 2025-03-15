@@ -123,6 +123,7 @@ body {
     text-align: right;
     margin-bottom: 40px;
     margin: 0 20px;
+    
 }
 
 .plans-container
@@ -197,3 +198,34 @@ body {
 {
     margin: 20px 0;
     width: 30%;
+}
+
+.riepilogo
+{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.descizione-riepilogo
+{
+    font-weight: 400;
+}
+
+.btn
+{
+    background-color: #482cd8;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: small;
+    text-decoration: none;
+
+}
+
+.billing-toggle
+{
+    margin: 40px;
+    
+}
