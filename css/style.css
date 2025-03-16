@@ -314,3 +314,22 @@ body {
         max-width: 100%;
         height: auto;
     }
+
+    .operations
+    {
+        padding: 60px 40px;
+    }
+
+    .operations-container
+    {
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .operations h2
+    {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
