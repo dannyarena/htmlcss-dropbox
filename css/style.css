@@ -380,3 +380,47 @@ body {
     text-decoration: underline;
     font-weight: 500;       
   }
+
+  .site-footer
+ {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 40px 0;
+        font-size: 0.875rem;
+    }
+
+.footer-container
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    padding: 0 20px;
+    
+}
+
+.footer-column
+{
+    flex: 1;
+    min-width: 150px;        /* Larghezza minima per evitare troppa compressione su schermi stretti */
+}
+
+.footer-column h3
+{
+    list-style: none;
+}
+  
+.footer-column a
+{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 100;
+    display: block;
+    margin-top: 10px;
+    
+}
+
+.footer-column ul
+{
+    list-style-type: none;
+}
