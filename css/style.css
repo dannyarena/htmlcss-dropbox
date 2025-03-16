@@ -11,6 +11,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    position: fixed; /* Rende l'header fisso nella viewport */
+    top: 0; /* Posiziona l'header nella parte superiore della pagina */
+    width: 100%; /* Fa sì che l'header occupi l'intera larghezza della viewport */
+    background-color: #ffffff; /* Imposta un colore di sfondo per l'header */
+    z-index: 1000; /* Assicura che l'header rimanga sopra gli altri contenuti */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra per separare visivamente l'header dal contenuto */
 }
 
 body {
@@ -387,6 +393,7 @@ body {
         color: #ffffff;
         padding: 40px 0;
         font-size: 0.875rem;
+        
     }
 
 .footer-container
