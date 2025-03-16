@@ -322,9 +322,10 @@ body {
 
     .operations-container
     {
-        max-width: 1200px;
+        max-width: 800px;
         margin: 0 auto;
         text-align: center;
+        margin-top: 50px;
     }
 
     .operations h2
@@ -333,3 +334,33 @@ body {
         font-weight: 700;
         margin-bottom: 40px;
     }
+
+    .operations-grid
+    {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 40px 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .operations-item img
+        {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .operations-item h3 {
+            font-size: 1rem; 
+            margin-bottom: 10px;
+            font-weight: 600;
+          }
+          
+          .operations-item p {
+            margin-top: 30px;
+            font-size: 0.875rem;
+            line-height: 1.4; 
+          }
+
+          
